@@ -1,0 +1,11 @@
+프로젝트 셋업
+1. direct june 2010 sdk 설치
+2. 프로젝트 속성 - VC++ 디렉터리
+	포함 디렉터리 
+	Microsoft DirectX SDK (June 2010)\Include 추가
+	라이브러리 디렉터리
+	Microsoft DirectX SDK (June 2010)\Lib\빌드 타겟에 따라 x86 or x64
+	상대 경로 이용 시, 환경 변수 - 시스템 변수 DXSDK_DIR 확인
+3. 프로젝트 속성 - 링커 - 추가 종속성
+	d3d9.lib, d3dx9.lib 추가
+4. 헤더 추가 d3d9.h, d3dx9.h

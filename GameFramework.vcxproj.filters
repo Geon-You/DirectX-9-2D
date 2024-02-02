@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\99.Headers">
+      <UniqueIdentifier>{acce069b-f11a-421f-8670-b0b11886dec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\98.Default">
+      <UniqueIdentifier>{a66b67ed-559d-4345-87cb-e93aea5a2236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\00.MainGame">
+      <UniqueIdentifier>{650e4590-fa93-4c13-ae0b-3697c6b7afcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03.Manager">
+      <UniqueIdentifier>{5208f8c0-c747-4050-b462-276c1bf3b0f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.DesignPattern">
+      <UniqueIdentifier>{3a43fff9-7e6a-401a-80c8-0a3b9947807e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Scene">
+      <UniqueIdentifier>{69e29761-20e1-474b-9987-516870d5df3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object">
+      <UniqueIdentifier>{76520ea1-138b-4d41-be75-b0f503e95339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Scene\Implementation">
+      <UniqueIdentifier>{c6b30a66-fa49-4771-9306-0e5e172b1bbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\Implementation">
+      <UniqueIdentifier>{bdc5d3ed-c316-401a-a865-62e2ff14e5e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.DesignPattern\Implementation">
+      <UniqueIdentifier>{cf47b922-005a-4a72-8807-cca4e926cc88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06.Texture">
+      <UniqueIdentifier>{ef7576ec-cf7e-4a27-bffb-5a175faa89f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06.Texture\Implementation">
+      <UniqueIdentifier>{185fc6cf-8d4e-4327-9161-c33d87766d63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\Implementation\Dynamic">
+      <UniqueIdentifier>{778dacb9-5060-4829-b6be-d76943c13216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\Implementation\Static">
+      <UniqueIdentifier>{42b94516-738d-425d-81e8-378e3d475f04}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameFramework.h">
+      <Filter>소스 파일\98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>소스 파일\98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>소스 파일\98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>소스 파일\98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>소스 파일\99.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>소스 파일\99.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>소스 파일\99.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>소스 파일\00.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>소스 파일\02.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>소스 파일\01.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>소스 파일\03.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>소스 파일\03.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>소스 파일\03.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Ingame.h">
+      <Filter>소스 파일\01.Scene\Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>소스 파일\03.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>소스 파일\03.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>소스 파일\01.Scene\Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>소스 파일\03.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Prototype.h">
+      <Filter>소스 파일\04.DesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjProto.h">
+      <Filter>소스 파일\04.DesignPattern\Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleObjProto.h">
+      <Filter>소스 파일\04.DesignPattern\Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="IngameObjProto.h">
+      <Filter>소스 파일\04.DesignPattern\Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>소스 파일\06.Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiTexture.h">
+      <Filter>소스 파일\06.Texture\Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTexture.h">
+      <Filter>소스 파일\06.Texture\Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>소스 파일\03.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicObj.h">
+      <Filter>소스 파일\02.Object\Implementation\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticObj.h">
+      <Filter>소스 파일\02.Object\Implementation\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="TileBackGround.h">
+      <Filter>소스 파일\02.Object\Implementation\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>소스 파일\02.Object\Implementation\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="SortMgr.h">
+      <Filter>소스 파일\03.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\02.Object\Implementation\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerEffect.h">
+      <Filter>소스 파일\02.Object\Implementation\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="Ending.h">
+      <Filter>소스 파일\01.Scene\Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>소스 파일\02.Object\Implementation\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>소스 파일\02.Object\Implementation\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="ObstaclesBackGround.h">
+      <Filter>소스 파일\02.Object\Implementation\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingBackGround.h">
+      <Filter>소스 파일\02.Object\Implementation\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingObjProto.h">
+      <Filter>소스 파일\04.DesignPattern\Implementation</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>소스 파일\02.Object\Implementation\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>소스 파일\02.Object\Implementation\Dynamic</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameFramework.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="GameFramework.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameFramework.cpp">
+      <Filter>소스 파일\98.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>소스 파일\00.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>소스 파일\02.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>소스 파일\01.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>소스 파일\03.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>소스 파일\03.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>소스 파일\03.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Ingame.cpp">
+      <Filter>소스 파일\01.Scene\Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>소스 파일\03.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>소스 파일\03.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>소스 파일\01.Scene\Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>소스 파일\03.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Prototype.cpp">
+      <Filter>소스 파일\04.DesignPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjProto.cpp">
+      <Filter>소스 파일\04.DesignPattern\Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleObjProto.cpp">
+      <Filter>소스 파일\04.DesignPattern\Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="IngameObjProto.cpp">
+      <Filter>소스 파일\04.DesignPattern\Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>소스 파일\06.Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTexture.cpp">
+      <Filter>소스 파일\06.Texture\Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleTexture.cpp">
+      <Filter>소스 파일\06.Texture\Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>소스 파일\03.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicObj.cpp">
+      <Filter>소스 파일\02.Object\Implementation\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticObj.cpp">
+      <Filter>소스 파일\02.Object\Implementation\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="TileBackGround.cpp">
+      <Filter>소스 파일\02.Object\Implementation\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>소스 파일\02.Object\Implementation\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="SortMgr.cpp">
+      <Filter>소스 파일\03.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\02.Object\Implementation\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerEffect.cpp">
+      <Filter>소스 파일\02.Object\Implementation\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="Ending.cpp">
+      <Filter>소스 파일\01.Scene\Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>소스 파일\02.Object\Implementation\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>소스 파일\02.Object\Implementation\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="ObstaclesBackGround.cpp">
+      <Filter>소스 파일\02.Object\Implementation\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingBackGround.cpp">
+      <Filter>소스 파일\02.Object\Implementation\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingObjProto.cpp">
+      <Filter>소스 파일\04.DesignPattern\Implementation</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>소스 파일\02.Object\Implementation\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>소스 파일\02.Object\Implementation\Dynamic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Lecture.txt" />
+  </ItemGroup>
+</Project>
